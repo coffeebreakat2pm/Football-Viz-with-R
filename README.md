@@ -14,7 +14,7 @@ Trophy to get his name into the “Greatest of all time” conversation.
 We use R and its visualization tools to analyse this game, we will try
 to analyse patterns and tactics behind this goal-fiesta of a match.
 
-The data for this analysis was provided by its [free to use
+The data for this analysis was provided by Statbomb and its [free to use
 datasets.](https://github.com/statsbomb/open-data)
 
 # Line up
