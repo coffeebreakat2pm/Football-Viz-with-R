@@ -20,34 +20,31 @@ datasets.](https://github.com/statsbomb/open-data)
 # Line up
 
 
-jersey_number                     player.name                        position.name
-23                          Damián Emiliano Martínez             Goalkeeper
-26                          Nahuel Molina Lucero                 Right Back
-13                          Cristian Gabriel Romero              Right Center Back
-19                          Nicolás Hernán Otamendi              Left Center Back
-3                           Nicolás Alejandro Tagliafico         Left Back
-24                          Enzo Fernandez                       Center Defensive Midfield
-7                           Rodrigo Javier De Paul               Right Center Midfield
-20                          Alexis Mac Allister                  Left Center Midfield
-10                          Lionel Andrés Messi Cuccittini       Right Wing
-11                          Ángel Fabián Di María Hernández      Left Wing
-9                           Julián Álvarez                       Center Forward
+    ##    jersey_number                     player.name             position.name
+    ##               23        Damián Emiliano Martínez                Goalkeeper
+    ##               26            Nahuel Molina Lucero                Right Back
+    ##               13         Cristian Gabriel Romero         Right Center Back
+    ##               19         Nicolás Hernán Otamendi          Left Center Back
+    ##                3    Nicolás Alejandro Tagliafico                 Left Back
+    ##               24                  Enzo Fernandez Center Defensive Midfield
+    ##               7          Rodrigo Javier De Paul     Right Center Midfield
+    ##               20             Alexis Mac Allister      Left Center Midfield
+    ##               10  Lionel Andrés Messi Cuccittini                Right Wing
+    ##               11 Ángel Fabián Di María Hernández                 Left Wing
+    ##                9                  Julián Álvarez            Center Forward
 
-
-
-jersey_number                      player.name                        position.name
-1                           Hugo Lloris                          Goalkeeper
-5                           Jules Koundé                         Right Back
-4                           Raphaël Varane                       Right Center Back
-18                          Dayotchanculle Upamecano             Left Center Back
-22                          Theo Bernard François Hernández      Left Back
-8                           Aurélien Djani Tchouaméni            Right Defensive Midfield
-14                          Adrien Rabiot                        Left Defensive Midfield
-11                          Ousmane Dembélé                      Right Wing
-7                           Antoine Griezmann                    Center Attacking Midfield
-10                          Kylian Mbappé Lottin                 Left Wing
-9                           Olivier Giroud                       Center Forward
-
+    ##    jersey_number                     player.name             position.name
+    ##                1                     Hugo Lloris                Goalkeeper
+    ##                5                    Jules Koundé                Right Back
+    ##                4                  Raphaël Varane         Right Center Back
+    ##               18        Dayotchanculle Upamecano          Left Center Back
+    ##               22 Theo Bernard François Hernández                 Left Back
+    ##                8       Aurélien Djani Tchouaméni  Right Defensive Midfield
+    ##               14                   Adrien Rabiot   Left Defensive Midfield
+    ##               11                 Ousmane Dembélé                Right Wing
+    ##                7               Antoine Griezmann Center Attacking Midfield
+    ##               10            Kylian Mbappé Lottin                 Left Wing
+    ##                9                  Olivier Giroud            Center Forward
 
 Both team lined up in their most used formations, 4-3-3 for Argentina
 and 4-2-3-1 for France.
@@ -61,20 +58,20 @@ striker Oliver Giroud and right winger Ousmanne Dembele at minute 41.
 The substitution changed the game for France in the second half, so lets
 begin by look at how the match panned out between minute 0 and 42.
 
-
-type.name      Argentina France Total
-<chr>              <int>  <int> <int>
-Pass                 277    153   430
-Ball Receipt*        265    132   397
-Carry                216    105   321
-Pressure              35     51    86
-Duel                  15     14    29
-Ball Recovery         14      8    22
-Foul Committed         8     10    18
-Foul Won              10      7    17
-Dribble               11      4    15
-Interception           5      7    12
-# … with 16 more rows
+    ##   A tibble: 26 × 4
+    ##    type.name      Argentina France Total
+    ##    <chr>              <int>  <int> <int>
+    ##    Pass                 277    153   430
+    ##    Ball Receipt*        265    132   397
+    ##    Carry                216    105   321
+    ##    Pressure              35     51    86
+    ##    Duel                  15     14    29
+    ##    Ball Recovery         14      8    22
+    ##    Foul Committed         8     10    18
+    ##    Foul Won              10      7    17
+    ##    Dribble               11      4    15
+    ##   Interception           5      7    12
+    ## # … with 16 more rows
 
 The dataframe shows us Argentina had a higher ball possession
 (possession is define as completed passes by FIFA), this despite the
@@ -96,21 +93,21 @@ pressure on Argentina’s left side for the majority of the first half?
 
 Lets take a look on the dribbles for the Argentina players
 
-
-player.name                     Dribble `Dribbled Past`
- <chr>                             <int>           <int>
-Ángel Fabián Di María Hernández       7               0
-Rodrigo Javier De Paul                2               0
-Alexis Mac Allister                   1               0
-Lionel Andrés Messi Cuccittini        1               0
-Cristian Gabriel Romero               0               1
-Damián Emiliano Martínez              0               0
-Enzo Fernandez                        0               1
-Julián Álvarez                        0               0
-Nahuel Molina Lucero                  0               0
-Nicolás Alejandro Tagliafico          0               0
-Nicolás Hernán Otamendi               0               0
-
+    ## # A tibble: 12 × 3
+    ## # Groups:   player.name [12]
+    ##    player.name                     Dribble `Dribbled Past`
+    ##    <chr>                             <int>           <int>
+    ##  1 Ángel Fabián Di María Hernández       7               0
+    ##  2 Rodrigo Javier De Paul                2               0
+    ##  3 Alexis Mac Allister                   1               0
+    ##  4 Lionel Andrés Messi Cuccittini        1               0
+    ##  5 Cristian Gabriel Romero               0               1
+    ##  6 Damián Emiliano Martínez              0               0
+    ##  7 Enzo Fernandez                        0               1
+    ##  8 Julián Álvarez                        0               0
+    ##  9 Nahuel Molina Lucero                  0               0
+    ## 10 Nicolás Alejandro Tagliafico          0               0
+    ## 11 Nicolás Hernán Otamendi               0               0
 
 The dataframe shows that Angel Di Maria that the highest attempt of
 Dribbles among the Argentina squad. The Argentinian manager Lionel
