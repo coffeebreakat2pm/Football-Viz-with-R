@@ -78,13 +78,13 @@ The dataframe shows us Argentina had a higher ball possession
 higher pressure attempt by France. So why wasnt the pressure working (or
 maybe it did?). Lets try to dive deeper to the pressure attempts.
 
-![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-4-1.png)![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-4-2.png)
+![](000010.png)![](000012.png)
 
 It doesnt look like there is a correlation between Frances pressure and
 Argentinas passers, what if Deschamps tactics was not to pressure to
 passer but rather pressure the receiver?
 
-![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](000013.png)
 
 So the heat maps shows no correlation between pressure on
 passer/receiver, but then what was the reason France kept applying
@@ -130,9 +130,9 @@ How did Messi fit in the grand scheme of things in the first half?
 
 Lets take a look of his passing and heat map
 
-![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](000014.png)
 
-![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](000015.png)
 
 The visualization shows us that despite lining up as “Right Winger”,
 most of Messi’s actions and plays came from the left side, the passing
@@ -167,7 +167,7 @@ the right side.
     ## 12 Nicolás Hernán Otamendi               0               0
     ## 13 <NA>                                  0               0
 
-![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-9-1.png)![](2022_WC_Final_files/figure-markdown_github/unnamed-chunk-9-2.png)
+![](000016.png)![](000017.png)
 
 The tactical change by Deschamp seem to be giving effect as France
 pressured more on the right side and the number of dribbles decreased
