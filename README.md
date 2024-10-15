@@ -173,7 +173,7 @@ The tactical change by Deschamp seem to be giving effect as France
 pressured more on the right side and the number of dribbles decreased
 from the first half.
 
-## Kylian Mbappe show
+## Kylian Mbappe
 
 The ball dominating Argentina was nowhere to be found in the second
 half.
