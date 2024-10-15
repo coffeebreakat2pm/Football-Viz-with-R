@@ -1,4 +1,4 @@
-# Best game of our lifetime
+# 2022 WC Finals
 
 The final match in the 2022 World Cup between France and Argentina has
 been crowned as “Best game of our lifetime” by many fans, players and
